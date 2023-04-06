@@ -34,9 +34,11 @@ License information can be found on the ```Company Information``` page.
 Abbreviation for Application Programmin Interface. This allows access to Salesforce programmatically (e.g. data loader, Informatica, integrations with other systems). There are limits to the number of requests that can be made in a 24 hour time period and is based on the edition and number of user licenses. Available for Enterprise, Unlimited, Developer, and Performance editions.
 
 #### Time Zone
+The time and date fields will display based on the time zone settings. The Org's time zone is set on the ```Company Information page``` and is used as the default for new users. Users can set their own time zone and override the org's settings.
+
+#### Currencies
 
 
-- Time Zone
 - Currencies
 - Business Hours and Holidays
 - Storage
