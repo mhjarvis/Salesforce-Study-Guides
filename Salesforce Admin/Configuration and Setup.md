@@ -30,13 +30,13 @@ Licenses (type) define what features/services are available to an org. There are
 
 License information can be found on the ```Company Information``` page.
 
-#### Salesforce API
+### Salesforce API
 Abbreviation for Application Programmin Interface. This allows access to Salesforce programmatically (e.g. data loader, Informatica, integrations with other systems). There are limits to the number of requests that can be made in a 24 hour time period and is based on the edition and number of user licenses. Available for Enterprise, Unlimited, Developer, and Performance editions.
 
-#### Time Zone
+### Time Zone
 The time and date fields will display based on the time zone settings. The Org's time zone is set on the ```Company Information page``` and is used as the default for new users. Users can set their own time zone and override the org's settings.
 
-#### Currencies
+### Currencies
 Orgs can have a single currency or multiple currencies. 
 
 Single Currencies:
@@ -55,16 +55,24 @@ Reports also support multiple currencies, classified as primary or secondary cur
 
 MULTIPLE CURRENCIES CANNOT BE DISABLED AFTER BEING ENABLED. Enabling can increase the compile size of formulas.
 
-#### Business Hours and Holidays
+### Business Hours and Holidays
 Business hours determine when users are available to support customers and are the basis for computing the support processes hours. ```Multiple Business Hours``` can be defined with one as the default. These can be specified in a case record to define when the support team is available to help customers. Holidays will be excluded from the time used when calculating a case escalation. 
 
 Found under:
     Company Settings -> Business Hours
 
-#### Fiscal Year
-The ```Fiscal year``` defines the ```business year of the company``` and can be ```Standard``` or ```Custom```. The standard fiscal year follows the ```Gregorian calendar``` and can be configured to start on the first day of ```any month``` and can be named for the starting or ending year. The custom fiscal year can use ```custom periods``` and can be bassed on existing template or an exiting template can be modified.
+### Fiscal Year
+The ```Fiscal year``` defines the ```business year of the company``` and can be ```Standard``` or ```Custom```. The standard fiscal year follows the ```Gregorian calendar``` and can be configured to start on the first day of ```any month``` and can be named for the starting or ending year. The custom fiscal year can use ```custom periods``` and can be bassed on existing template or an exiting template can be modified. Fiscal year can be based on either the starting or ending month of the period.
 
+Custom Fiscal Year Templates include adding 4 quarters per year, 13 weeks per quarter, or 13 periods per year. Using custom fiscal years will impact ```forecasting, reports, and quotas```. 
 
+IF A CUSTOM FISCAL YEAR IS ENABLED, IT CANNOT BE REVERTED BACK TO STANDARD. However, standard fiscal years can be replicated by choosing the Gregorian calendar.
+
+Custom Fiscal Year editing occurs in the ```Fiscal Year``` page under Setup. After picking a fiscal year structure, you can enter the start date, name, description, week start day. Additional customization can be done by ```adding or removing fiscal periods``` and by ```changing the length of a fiscal week```. Templates can also be reset by selecting a different structure base. It can be previewed before saving.
+
+Enabling / defining custom fiscal years impacts ```forecasts```, ```reports```, and ```quotas```.
+
+Custom fiscal year ranges appear in ```report filters```.
 
 
 - Storage
