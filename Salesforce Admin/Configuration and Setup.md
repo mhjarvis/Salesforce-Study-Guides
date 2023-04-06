@@ -3,14 +3,14 @@
 ## Company Settings
 
 ### Locale
-Locale controls how different values are displayed (e.g. data dn time, address, currency, name, and number fields). The ```Company Information Page``` controls company-wide defaults and new users will use these default settings. However, users can OVERRIDE company default settings via ```Language and Time Zone settings``` in user's personal settings.
+Locale controls how different values are displayed (e.g. ```date, time, address, currency, name, and number fields```). The ```Company Information Page``` controls company-wide defaults and new users will use these default settings. However, users can OVERRIDE company default settings via ```Language and Time Zone settings``` in user's personal settings.
 
 ### Language Settings
 Language settings define the ```default language``` of the org and the languages the user will be able to use in their personal settings. There are 3 levels of language support: fully supported, end user, and platform languages. The default language is set on the Company Info page and applies to new users. The ```Translation Workbench``` allows translations to be applied to custom fields, labels, etc.
 
-1. Fully Supported - mean all Salesforce featuers, including User Interface, Setup, and Help will display in that language. Total 18 supported.
-2. End User - languages will have translations for all standard object field labels and pages, but not Setup and Help. Total 17.
-3. Platform - Possible to provide translations for customizationss and standard fields. Fallback is English is translations are not provided. Total +100.
+1. ```Fully Supported``` - mean all Salesforce featuers, including User Interface, Setup, and Help will display in that language. Total 18 supported.
+2. ```End User``` - languages will have translations for all standard object field labels and pages, but not Setup and Help. Total 17.
+3. ```Platform``` - Possible to provide translations for customizationss and standard fields. Fallback is English is translations are not provided. Total +100.
 
 The ```Default Language``` will be the language used in the org.
 
@@ -74,6 +74,22 @@ Enabling / defining custom fiscal years impacts ```forecasts```, ```reports```, 
 
 Custom fiscal year ranges appear in ```report filters```.
 
+### Data and File Storage
+Storage is divided into data and file storage.
 
-- Storage
-- Fiscal Year
+#### Data Storage
+- ```used by creating records``` (e.g. Account records, Contract records, etc.)
+- Most records use ```2KB of storage```. Some exceptions exist: Person Account (4KB), Campaigns (8KB), Articles (4KB), and Email Messages (size of email).
+
+#### File Storage
+- ```usd by storing files``` in Attachments, the Documents tab, the Files tab, Content, Chatter (includes photos) and Site.com assets.
+
+#### Additional Considerations
+Enterprise Edition provides: 
+* ```10GB of data storage plus 20MB per user license```
+* ```10GB of file storage plus 2GB per user license```
+
+* Big Objects - ```up to 1 million big object records can be stored```.
+* Additional capacity can be purchased via licenses.
+
+Storage Usage can be viewed in ```Storage Usage``` under ```Setup```.
