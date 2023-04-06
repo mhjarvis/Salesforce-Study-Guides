@@ -1,11 +1,11 @@
-## Configuration and Setup
+# Configuration and Setup
 
-### Company Settings
+## Company Settings
 
-#### Locale
+### Locale
 Locale controls how different values are displayed (e.g. data dn time, address, currency, name, and number fields). The ```Company Information Page``` controls company-wide defaults and new users will use these default settings. However, users can OVERRIDE company default settings via ```Language and Time Zone settings``` in user's personal settings.
 
-#### Language Settings
+### Language Settings
 Language settings define the ```default language``` of the org and the languages the user will be able to use in their personal settings. There are 3 levels of language support: fully supported, end user, and platform languages. The default language is set on the Company Info page and applies to new users. The ```Translation Workbench``` allows translations to be applied to custom fields, labels, etc.
 
 1. Fully Supported - mean all Salesforce featuers, including User Interface, Setup, and Help will display in that language. Total 18 supported.
@@ -18,10 +18,10 @@ User can change their display language via -> my settings -> personal -> languag
 
 If you want other languages enabled, they must be enabled in ```Language Settings``` before they can be selected.
 
-#### Organization ID
+### Organization ID
 The Org ID is a 15 character identifier that uniquely identifies each Salesforce org. It is found in the ```Company Information``` page. It will be different accross enviornments (e.g. Dev, Test, Production). 
 
-#### Licenses
+### Licenses
 Licenses (type) define what features/services are available to an org. There are three different license types:
 
 1. ```User Licenses``` - define the baseline of features available to a user; each user needs a license.
@@ -60,6 +60,11 @@ Business hours determine when users are available to support customers and are t
 
 Found under:
     Company Settings -> Business Hours
+
+#### Fiscal Year
+The ```Fiscal year``` defines the ```business year of the company``` and can be ```Standard``` or ```Custom```. The standard fiscal year follows the ```Gregorian calendar``` and can be configured to start on the first day of ```any month``` and can be named for the starting or ending year. The custom fiscal year can use ```custom periods``` and can be bassed on existing template or an exiting template can be modified.
+
+
 
 
 - Storage
