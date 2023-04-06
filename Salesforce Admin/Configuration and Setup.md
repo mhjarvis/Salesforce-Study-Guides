@@ -10,7 +10,7 @@ Language settings define the ```default language``` of the org and the languages
 
     1. Fully Supported - mean all Salesforce featuers, including User Interface, Setup, and Help will display in that language. Total 18 supported.
     2. End User - languages will have translations for all standard object field labels and pages, but not Setup and Help. Total 17.
-    3. Possible to provide translations for customizationss and standard fields. Fallback is English is translations are not provided. Total +100.
+    3. Platform - Possible to provide translations for customizationss and standard fields. Fallback is English is translations are not provided. Total +100.
 
 The ```Default Language``` will be the language used in the org.
 
@@ -18,11 +18,15 @@ User can change their display language via -> my settings -> personal -> languag
 
 If you want other languages enabled, they must be enabled in ```Language Settings``` before they can be selected.
 
+#### Organization ID
+The Org ID is a 15 character identifier that uniquely identifies each Salesforce org. It is found in the ```Company Information``` page. It will be different accross enviornments (e.g. Dev, Test, Production). 
+
+#### Licenses
+
 
 - Time Zone
 - Currencies
 - Business Hours and Holidays
-- Organization ID
 - Licenses
 - Storage
 - Fiscal Year
