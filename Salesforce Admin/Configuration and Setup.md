@@ -55,6 +55,12 @@ Reports also support multiple currencies, classified as primary or secondary cur
 
 MULTIPLE CURRENCIES CANNOT BE DISABLED AFTER BEING ENABLED. Enabling can increase the compile size of formulas.
 
-- Business Hours and Holidays
+#### Business Hours and Holidays
+Business hours determine when users are available to support customers and are the basis for computing the support processes hours. ```Multiple Business Hours``` can be defined with one as the default. These can be specified in a case record to define when the support team is available to help customers. Holidays will be excluded from the time used when calculating a case escalation. 
+
+Found under:
+    Company Settings -> Business Hours
+
+
 - Storage
 - Fiscal Year
