@@ -37,9 +37,24 @@ Abbreviation for Application Programmin Interface. This allows access to Salesfo
 The time and date fields will display based on the time zone settings. The Org's time zone is set on the ```Company Information page``` and is used as the default for new users. Users can set their own time zone and override the org's settings.
 
 #### Currencies
+Orgs can have a single currency or multiple currencies. 
 
+Single Currencies:
+- set for the organization via the ```Company Information``` page using the ```Currency Locale```.
+- this also controls the currency symbol.
+- this is the default
 
-- Currencies
+Multiple Currencies:
+- adds the ability to record amounts in different currencies on the records.
+- must be enabled on the ```Company Information``` page.
+- in multi-currency orgs, the corporate currency is ```defined```.
+
+Multiple Currencies is enabled by the System Admin. Currencies must be made active to be used. Reporting and forcating can be done in the ```record currency``` and ```corporate currency```. Users can also set their individual currency in the ```Personal Information``` page. These can be used in reports, quotes, forecaasts, and other records that use currency amounts. Exchange rates can be set on the ```Manage Currencies``` page. Dated exchange ratees can be used by enabling ```Advanced Currency Management```. This allows for the tracking of the exchange rate at the ```date opportunities close```.
+
+Reports also support multiple currencies, classified as primary or secondary currency. The primary currency reflects either the default corporate currencyor the currency selected for the record. They secondary currency reflects the personal default currency of the user or the currency specified in the report criteria.
+
+MULTIPLE CURRENCIES CANNOT BE DISABLED AFTER BEING ENABLED. Enabling can increase the compile size of formulas.
+
 - Business Hours and Holidays
 - Storage
 - Fiscal Year
