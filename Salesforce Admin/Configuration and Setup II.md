@@ -72,11 +72,10 @@ Admins can configure the search results of ```global search``` and ```lookup sea
 
 Each search type searches a unique set of fields for each object. Encrypted, formula, and lookup fields cannot be searched. Field-level security if enforced when users search for records. Search results do not override field-level security. Data in restricted fields do not return in the results. ```Records in search results depend on whether that the objects type and fields are accessible```. Lists of records can also be searched using the ```list view search bar```.
 
+## Global Search
+The global search box ```displays a list of auto-suggested records``` for multiple object types as it is typed into. This provides instant results ```before performing a full search```. You can also get ```recently viewed items``` that match the search term when a user clicks into the search box.
 
-
-
-
-
+The ```Suggested Records``` lists ```up to five records``` with name matches. ```Full search``` searches ```across searchable objects``` and takes the user to the 'Top Results' page. ```Full Object-Specific Search``` searches ```within the current object``` and takes the user to the object's search results page. The ```Limit search to``` option can be selected to ```limit the search to an object``` entered in the search box.
 
 
 
