@@ -112,7 +112,7 @@ Search layout cann be configured from ```Setup Menu``` or ```Object Manager```.
 
 Record search results columns are displayed and arranged ```according to the object search layout``` assigned to a user profile.
 
-## Einstein Search [link](https://trailhead.salesforce.com/content/learn/modules/einstein-search-increased-productivity)
+## Einstein Search [Trailhead Link](https://trailhead.salesforce.com/content/learn/modules/einstein-search-increased-productivity)
 Enabled by default and provides features like ```search personalization, natural language search, and instant actionable results```. 
 
 - Search Personalization - search results are based on records most relevant to the user, the records they use most. Results are reordered to be most relevant to you.
