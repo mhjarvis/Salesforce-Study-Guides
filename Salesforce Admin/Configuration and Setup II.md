@@ -123,6 +123,9 @@ Enabled by default and provides features like ```search personalization, natural
 
 # UI Features: List Views
 
+## List Views
+A list view is a list of summary of records that ```meed defined criteria```.
+
 # UI Features: Lightning App Builder
 
 # UI Features: App Menu
