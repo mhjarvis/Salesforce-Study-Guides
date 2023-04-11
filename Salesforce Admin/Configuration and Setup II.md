@@ -1,6 +1,4 @@
-# Configuration and Setup II
-
-## UI Features
+# UI Features: UI Settings
 
 ### UI Settings
 There are two ways to set a default record page view at the org level:
@@ -59,4 +57,7 @@ There are three prompt types: ```floating```, ```docked```, and ```targeted```. 
 
 It is also possible to create ```direct links``` to prompts and walkthroughs. The URL can also be attached to the help menu or help documents. Note that if the API name of the guidance is changed, the URL will also change. The link can be found either from ```the Settings from inide the In-App Guidance Builder on the Details dialog``` or ```from the row-level action menu on the In-App Guidance Setup page```.
 
-###
+### Guidance Center
+The ```Guidance Center``` guies admins in setting up and enhancing the Salesforce org and provides ```recommendations``` tailored for the org and the admin's level of experience. The Guidance Center can be accessed next to your profile picture with the 'trail' looking buttons that has mountains.
+
+## UI Features
