@@ -112,14 +112,19 @@ Search layout cann be configured from ```Setup Menu``` or ```Object Manager```.
 
 Record search results columns are displayed and arranged ```according to the object search layout``` assigned to a user profile.
 
-## Einstein Search
+## Einstein Search (link)[https://trailhead.salesforce.com/content/learn/modules/einstein-search-increased-productivity]
 Enabled by default and provides features like ```search personalization, natural language search, and instant actionable results```. 
 
-- Search Personalization - search results are based on records most relevant to the user.
-- Instant Actionable Results - suggested searches and record previews are immediately seen.
+- Search Personalization - search results are based on records most relevant to the user, the records they use most. Results are reordered to be most relevant to you.
+- Instant Actionable Results - suggested searches and record previews are immediately seen. Hovering over these instant results also provides previews of these records. Actions buttons also show up to let you follow or edit these accounts from the search.
 - Natural Language Search (NLS) - common words / phrases can be used as search terms which are turned into usable search filters.
 
 ```Search Manager``` can be accessed in Setup to ```view all searchable objects``` and the ```search status of each field```. 
+
+EINSTEING DOES NOT discard results or filter them away.
+
+Personalization is currently available on Accounts, Cases, Contacts, Leads, and Opportunities. 
+Natural language search currently works on Accounts, Cases, Contacts, Opportunities, and Leads.
 
 # UI Features: List Views
 
