@@ -77,7 +77,27 @@ The global search box ```displays a list of auto-suggested records``` for multip
 
 The ```Suggested Records``` lists ```up to five records``` with name matches. ```Full search``` searches ```across searchable objects``` and takes the user to the 'Top Results' page. ```Full Object-Specific Search``` searches ```within the current object``` and takes the user to the object's search results page. The ```Limit search to``` option can be selected to ```limit the search to an object``` entered in the search box.
 
+## Lookup Search
+Lookup Search allows a user to search for a record of an object and associate it to a record of another object using a lookup field. This can be found for example, when adding a record and looking for an account name to add - the auto populated info is using lookup search.
 
+- Lookup Fields - used to ```associate two records``` together in a relationship.
+- Instant Results - when they type in a lookup field, you see a ```dynamic list of suggested matches instantly```.
+- Search Term - instant results match to the records name, but a full search can be performed.
+- Secondary Field - if configured, a secondary field is displayed under the primary record name that provides more contextual info.
+
+```Lookup Filters``` and ```dependent lookups``` can be configured to make the lookup search results more relevant.
+
+- Lookup Filters - ```restrict the valid values and lookup dialog results``` for relationship fields.
+- Dependent Lookups - A lookup field that ```includes a lookup filter that references fields``` on the source object record.
+
+## List View Search
+```ONLY the first 2000 records are searched```. To get around this, use more specific terms or change the filters / sorting order.
+
+Federated Search - configuring this will allow users to ```search data stored in extrnal repositories``` from the Salesforce interface.
+
+- External Search - users can use global search to see external results.
+- Partner Providers - Salesforce has partnered services to make it easy to connect to external search providers.
+- Setup In Experience Cloud Sites - Federated search can be configured in ```Experience Cloud sites```.
 
 
 
