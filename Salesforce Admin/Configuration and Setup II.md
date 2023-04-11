@@ -47,3 +47,16 @@ The ```App Menu``` in Settings can be used to show the visibility in the App Lau
 Custom images and themes are availabe. Admins can choose from ```build-in themes``` ('Lightning Blue' is the default theme). Themes don't apply to mobile apps. Custom themes can be created to include brand logo, brand colors, background, and banner images. Themes apply to the entire org and can only have 1 active at a time. Apps can override a ```custom theme's brand image and nav bar color```. 
 
 Custom themes can be ```created, previewed, and activated``` from the Setup page. Other options for customization include ```Background, banner, and default avatar imaes```. 
+
+### In-App Guidance
+Can be used to create hands-on ```interactive tour``` to guide users with ```step-by-step-prompts```. These can be placed on ```Object record pages, Support setup pages, List view dropdown menu, Record tabs and subtabs, etc```. 
+
+Found in ```In-App Guidance``` under ```User Engagement``` in Setup.
+
+The ```Manage Prompts``` permission is needed. A ```myTrailhead``` subscription is required so users can be assigned the permission to view ```more than three custom walktrhoughs```.
+
+There are three prompt types: ```floating```, ```docked```, and ```targeted```. Where on the page the prompt appear is also a option. You can also add still images and animated .gifs. Existing in-app guidance can be assigned to a specific rcord type.
+
+It is also possible to create ```direct links``` to prompts and walkthroughs. The URL can also be attached to the help menu or help documents. Note that if the API name of the guidance is changed, the URL will also change. The link can be found either from ```the Settings from inide the In-App Guidance Builder on the Details dialog``` or ```from the row-level action menu on the In-App Guidance Setup page```.
+
+###
