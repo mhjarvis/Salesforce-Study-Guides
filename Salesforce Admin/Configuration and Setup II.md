@@ -64,3 +64,31 @@ The ```Guidance Center``` guies admins in setting up and enhancing the Salesforc
 
 # UI Features: Search Settings
 
+## Seach Overview
+Admins can configure the search results of ```global search``` and ```lookup search```.
+
+- Global Search Results - the results that appear when searching the global search bar at the top.
+- Lookup Search Results - results when using the search on the lookup fields of a record
+
+Each search type searches a unique set of fields for each object. Encrypted, formula, and lookup fields cannot be searched. Field-level security if enforced when users search for records. Search results do not override field-level security. Data in restricted fields do not return in the results. ```Records in search results depend on whether that the objects type and fields are accessible```. Lists of records can also be searched using the ```list view search bar```.
+
+
+
+
+
+
+
+
+
+
+
+# UI Features: List Views
+
+# UI Features: Lightning App Builder
+
+# UI Features: App Menu
+
+# UI Features: Sandbox & Change Sets
+
+
+
