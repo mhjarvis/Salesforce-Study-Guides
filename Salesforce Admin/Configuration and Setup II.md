@@ -99,7 +99,27 @@ Federated Search - configuring this will allow users to ```search data stored in
 - Partner Providers - Salesforce has partnered services to make it easy to connect to external search providers.
 - Setup In Experience Cloud Sites - Federated search can be configured in ```Experience Cloud sites```.
 
+## Search Layouts
+The ```Search Layout``` dtermines which fields users can ```view, filter on, and sort by``` on the search results page for global / lookup search. 
 
+- Setup - Search Layout of an object can be configured to select the fields that should be shown as columns on the search results page.
+- Secondary Field - Secondary field is always the related account for contacts and opportunities.
+- Object-specific Layout - Search layouts can be created for individual objects.
+
+Search layout allows the following to be customized: fields in a ```record's instant results``` preview, fields that can be ```filtered```, fields shown in a ```recommended result```, and ```secondary fields``` in instant results.
+
+Search layout cann be configured from ```Setup Menu``` or ```Object Manager```.
+
+Record search results columns are displayed and arranged ```according to the object search layout``` assigned to a user profile.
+
+## Einstein Search
+Enabled by default and provides features like ```search personalization, natural language search, and instant actionable results```. 
+
+- Search Personalization - search results are based on records most relevant to the user.
+- Instant Actionable Results - suggested searches and record previews are immediately seen.
+- Natural Language Search (NLS) - common words / phrases can be used as search terms which are turned into usable search filters.
+
+```Search Manager``` can be accessed in Setup to ```view all searchable objects``` and the ```search status of each field```. 
 
 # UI Features: List Views
 
@@ -108,6 +128,7 @@ Federated Search - configuring this will allow users to ```search data stored in
 # UI Features: App Menu
 
 # UI Features: Sandbox & Change Sets
+
 
 
 
