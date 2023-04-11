@@ -1,3 +1,5 @@
+<h1 style="text-align: center; font-size: 40px">Configuration and Setup I</h1>
+
 # Configuration and Setup I
 
 ## Company Settings
