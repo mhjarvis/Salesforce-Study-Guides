@@ -31,3 +31,10 @@ Each app in Lightning Experience has a horizontal navigation bar. This is used t
 - The Navigation Items can be rearanged and picked; a utility bar can be enabled as well.
 - The Interface / ```color and logo can be customized``` for each app.
 - These apps can be ```assigned to user profiles```.
+
+The ```App Manager``` is used to ```view, create, and customize``` apps in the organization. Salesforce apps can be personalized to match aspects of their companies' branding (logo, hightlight colors). 
+
+The ```Utility Bar``` allows easy ```access to common productivity tools``` such as Notes, History, Calculator, and Omnichannel.
+
+```Temporary tabs``` are opened when a user clicks an item that ```does not have a parent object``` placed in the navigation bar. These are visible when you click on a nav bar item (look for the '+') These can be used to access relevant items from the nav bar. Can be set as a permanent 'tab'.
+
