@@ -128,6 +128,8 @@ Natural language search currently works on Accounts, Cases, Contacts, Opportunit
 
 # UI Features: List Views
 
+t
+
 ## List Views
 A list view is a list of summary of records that ```meed defined criteria```.
 
