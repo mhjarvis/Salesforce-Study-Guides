@@ -2,7 +2,7 @@
 
 # UI Features: UI Settings
 
-## UI Settings
+## UI Features: UI Settings
 There are two ways to set a default record page view at the org level:
 * ```Full View``` - data-dense, focuses on details and related lists and puts all info on the same page.
 * ```Group View``` - divides records info into groupings across multiple regions and tabs.
@@ -130,7 +130,7 @@ Natural language search currently works on Accounts, Cases, Contacts, Opportunit
 
 Summary of records can be displayed in a single view on that objects home page. To do this, we have ```List Views``` (a list or summary of records that meet a defined criteria) and ```Kanban View``` (shows a graphical view of records in a list view). 
 
-## List Views
+## UI Features: List Views
 Salesforce groups data by object types, such as Contacts or Cases. An object tab contains a data table and a toolbar of action buttons - this is the list view. Rows begin to fill in as new data is added to the org. You can also customize the views which provides a lot of power. Other users can be given the ability to ```create public list views```. The user needs the ```Manage Public List views``` permission.
 
 Remember that sharing rules apply to list views as well. List views can show any field associated with the object. You can pin the list view that you use the most often (this affects your instance only). Certain list views let you do different things (e.g. in Contacts you can send emails to selected contacts). 
@@ -170,7 +170,7 @@ To Create a custom list view:
 5. Opionally create a list view chart.
 6. Use Sharing Settings to adjust visibility if required. 
 
-## Kanban View
+## UI Features: Kanban View
 The Kanban view is aa list view presented as a ```visual summary for a selection of records```. 
 
 - List View - records are based on the selected list view.
@@ -182,6 +182,32 @@ The Kanban view is aa list view presented as a ```visual summary for a selection
 Opportunity deal change highlights can be used to show recent changes to amounts and close dates in the Kanban view. This feature is also available in list views. Feature can be turned on or off from the Opportunity Settings page in Setup. Text colors and arrows can indicate amounts and close dates that changed during the last 7 days. Users can hover over an arrow to view details.This feature is only available in Lightning Experience in Unlimited Edition.
 
 # UI Features: Lightning App Builder
+## Lightning App Builder
+
+
+
+
+
+
+
+## Dynamic Interactions
+## UI Features: Homepage Layouts
+## UI Features: Creating a Lightning Home Page
+## Lightning Page Performance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # UI Features: App Menu
 
