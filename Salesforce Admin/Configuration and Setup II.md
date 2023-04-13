@@ -183,14 +183,32 @@ Opportunity deal change highlights can be used to show recent changes to amounts
 
 # UI Features: Lightning App Builder
 ## Lightning App Builder
+The Lightningn App Builder is a one-stop shop, point and click tool that can be used to customize Lightning Apps. It allows you to customize apps with custom components based on need. Lightning App Builder can be used to manage Lightning app settings such as branding, navigation, options, and the Lightning pages assigned to that app.
 
+Standard, custom, and third-party components (e.g. AppExchange) can be added to a Lightning page using the ```Lightning App Builder```. Some components are only available based on the Lightning page type. For example, the Record Detail component can only be added to Lightning Record Pages. 
 
+Lightning App Builder can be used to customize:
 
+- Lightning Apps
+- Lightning Pages
+- Visibility Rules - Lightning app, home, and record pages can be made dynamic by setting visibility rules for components. Related fieldss and other objects can be included in visibility rules.
+- Component Visibility - can be based on standard or custom user permissions.
+- Collapsible Sections - components can be groouped into collapsible sections using the Accordion component. There can be up to 25 sections.
+- Pinned Regions - can be created for console apps. These remain displayed as a user navigatees to subtabs in Lightning console app.
 
-
-
+Some additional notes:
+- The ‘Pages’ menucan be used to navigate and edit the pages of a Lightning app.
+- Component visibility rules can be set for app, record, and home pages by defining filters.
+- A page can be made dynamic by configuring the component visibility filters based on the permissions of the person viewing the page.
+- Components can be grouped into collapsible sections using the ‘Accordion’ component.
+- Pinned region pages can be created for Console Apps.
 
 ## Dynamic Interactions
+
+
+
+
+
 ## UI Features: Homepage Layouts
 ## UI Features: Creating a Lightning Home Page
 ## Lightning Page Performance
