@@ -146,6 +146,9 @@ Users can switch list view display to split view. This will allow users to ```ef
 
     Q. To take bulk actions on all records in a list view, you click the bulk action button without selecting any records. 
     A. True.
+
+    Q. True or False: A list view can be shred?
+    A. True.
     
 List Views have the followwing features:
 1. List View Search Bar
@@ -167,16 +170,16 @@ To Create a custom list view:
 5. Opionally create a list view chart.
 6. Use Sharing Settings to adjust visibility if required. 
 
+## Kanban View
+The Kanban view is aa list view presented as a ```visual summary for a selection of records```. 
 
+- List View - records are based on the selected list view.
+- Record Type - records are separated based on record type.
+- Fields - fields on which columns and summaries should be created.
+- Search Bar - search records
+- Availability - available for most objects in Lightning Experience.
 
-
-
-
-
-
-
-
-
+Opportunity deal change highlights can be used to show recent changes to amounts and close dates in the Kanban view. This feature is also available in list views. Feature can be turned on or off from the Opportunity Settings page in Setup. Text colors and arrows can indicate amounts and close dates that changed during the last 7 days. Users can hover over an arrow to view details.This feature is only available in Lightning Experience in Unlimited Edition.
 
 # UI Features: Lightning App Builder
 
