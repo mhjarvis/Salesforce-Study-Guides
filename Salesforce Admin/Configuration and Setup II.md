@@ -128,10 +128,55 @@ Natural language search currently works on Accounts, Cases, Contacts, Opportunit
 
 # UI Features: List Views
 
-t
+Summary of records can be displayed in a single view on that objects home page. To do this, we have ```List Views``` (a list or summary of records that meet a defined criteria) and ```Kanban View``` (shows a graphical view of records in a list view). 
 
 ## List Views
-A list view is a list of summary of records that ```meed defined criteria```.
+Salesforce groups data by object types, such as Contacts or Cases. An object tab contains a data table and a toolbar of action buttons - this is the list view. Rows begin to fill in as new data is added to the org. You can also customize the views which provides a lot of power. Other users can be given the ability to ```create public list views```. The user needs the ```Manage Public List views``` permission.
+
+Remember that sharing rules apply to list views as well. List views can show any field associated with the object. You can pin the list view that you use the most often (this affects your instance only). Certain list views let you do different things (e.g. in Contacts you can send emails to selected contacts). 
+
+The default view shows up to 50 records. Scrolling will show more. Up to 15 different fields can be displayed. To apply a bulk action to every record in a list (even those not seen), click the bulk action button without selecting any records. To apply bulk action to all records in the current view, check the table header checkbox. For specific records, click on the individual boxes.
+
+The default pinned list for all objects is ```Recently Viewed```. Any view can be pinned as the default. The send email action is available for Contacts, Leads, and Compaign. 
+
+Users can switch list view display to split view. This will allow users to ```efficiently work with multiple records from a list``` without going back and forth to the list view page. 
+
+    Q. What's the first step to take to create a list view? 
+    A. Open the List View Controls menu.
+
+    Q. To take bulk actions on all records in a list view, you click the bulk action button without selecting any records. 
+    A. True.
+    
+List Views have the followwing features:
+1. List View Search Bar
+2. Show Charts - display data as a chart
+3. Charts - can be added to a list view
+4. Kanban View
+5. Inline Editing
+6. Filters
+7. Import
+8. List Email - send emails
+
+In ```Settings``` under ```List View Button Layout```, you can add buttons and actions to the ```List View Search Layout``` so that they appear in the objects list views.
+
+To Create a custom list view:
+1. Create and name a new list view or clone an existing list view. 
+2. Select the List View sharing.
+3. Add List View filters.
+4. Select the fields to display.
+5. Opionally create a list view chart.
+6. Use Sharing Settings to adjust visibility if required. 
+
+
+
+
+
+
+
+
+
+
+
 
 # UI Features: Lightning App Builder
 
