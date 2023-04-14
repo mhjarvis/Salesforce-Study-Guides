@@ -182,7 +182,7 @@ The Kanban view is aa list view presented as a ```visual summary for a selection
 Opportunity deal change highlights can be used to show recent changes to amounts and close dates in the Kanban view. This feature is also available in list views. Feature can be turned on or off from the Opportunity Settings page in Setup. Text colors and arrows can indicate amounts and close dates that changed during the last 7 days. Users can hover over an arrow to view details.This feature is only available in Lightning Experience in Unlimited Edition.
 
 # UI Features: Lightning App Builder
-## Lightning App Builder
+## Lightning App Builder [Trailhead Link](https://trailhead.salesforce.com/content/learn/modules/lightning_app_builder)
 The Lightningn App Builder is a one-stop shop, point and click tool that can be used to customize Lightning Apps. It allows you to customize apps with custom components based on need. Lightning App Builder can be used to manage Lightning app settings such as branding, navigation, options, and the Lightning pages assigned to that app.
 
 Standard, custom, and third-party components (e.g. AppExchange) can be added to a Lightning page using the ```Lightning App Builder```. Some components are only available based on the Lightning page type. For example, the Record Detail component can only be added to Lightning Record Pages. 
@@ -204,12 +204,22 @@ Some additional notes:
 - Pinned region pages can be created for Console Apps.
 
 ## Dynamic Interactions
+Dynamic Interactions enable Lightning web components (source) to ```communicate with other custom Lightning components (target) that exist on the same Lightning App page. Programmatic customiztion is required for configuring a Lightning web componenet as a source, Lightning App Builder is used to specifying target components. 
 
-
-
-
+When a (source) component has been configured for dynamic interactions, an Interactions tab will appear in its properties panel in Lightning App Builder. This tab lists the interactions, or available events, “exposed” by the source component. To target a component for a specific event, the Add Interaction button is clicked. Clicking on the ```Add Interactions``` button opens up the Interaction Details tab for the selected event. The Interaction Details tab is used to define the target component and data (property values) that will be communicated in the interaction. It also shows the name of the source component and event, as well as the type of interaction between the source and target components.A static value or an expression can be used to define the value of the property. 
 
 ## UI Features: Homepage Layouts
+
+
+
+
+
+
+
+
+
+
+
 ## UI Features: Creating a Lightning Home Page
 ## Lightning Page Performance
 
