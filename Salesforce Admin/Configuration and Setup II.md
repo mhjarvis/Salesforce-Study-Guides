@@ -301,6 +301,14 @@ After a Mass Quick Action is set up, up to 100 records can be selected in a list
 Dynamic Actions can be used to dynamically control the visibility of Action buttons on a record page, based on the values on the record. Actions can thus be set to only appear when values of fields match a certain critria.
 
 ## Object-Specific Actions
+Object-specific actions are used to quickly create or update records, log calls, etc. in regards to a particular object. The location of actions for the mobile app can be customized in the object's ```page layout editor```. The layout of an action determines the fields that will be displayed. 
+
+When a action is created, there is always a ```corresponding layout``` that can be customized based on requirements. Fields can be added, removed, or reordered on the action layout. In order to display the action in the user interface, it needs to be added to the Publisher Actions section of the objects’ page layout.
+
+The ‘Override global publisher layout’ option must be ticked when adding new object-specific actions for the first time on an object’s page layout. This option will allow the users to set a customized list of actions on Lightning Experience and mobile app pages.
+
+Object-Specific actions layout can be configured from: Setup, Object Manager, (Object), Buttons, Links, and Actions.
+
 ## Scenarios & Solutions
 
 
