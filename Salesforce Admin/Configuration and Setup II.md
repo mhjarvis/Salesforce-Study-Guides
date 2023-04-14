@@ -209,7 +209,7 @@ Dynamic Interactions enable Lightning web components (source) to ```communicate 
 When a (source) component has been configured for dynamic interactions, an Interactions tab will appear in its properties panel in Lightning App Builder. This tab lists the interactions, or available events, “exposed” by the source component. To target a component for a specific event, the Add Interaction button is clicked. Clicking on the ```Add Interactions``` button opens up the Interaction Details tab for the selected event. The Interaction Details tab is used to define the target component and data (property values) that will be communicated in the interaction. It also shows the name of the source component and event, as well as the type of interaction between the source and target components.A static value or an expression can be used to define the value of the property. 
 
 ## UI Features: Homepage Layouts
-
+This is the first page displayed to a user and can be customized using the ```Lightning App Builder```. A home page layout can be set as the org default or it can be customized and assigned to app or app and profile combos. 
 
 
 
