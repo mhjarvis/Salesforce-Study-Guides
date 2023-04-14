@@ -239,29 +239,41 @@ Each app has a horizontal navigation bar to access items and functionality in th
 Users can rename / remove navigation items except for the ones added by the Admin by default. This accomplished in the ```app navigation items edit page```.
 
 ## App Manager
-All apps in an org can be viewed and managed in the App Manager, including the app menu configuration. 
+All apps in an org can be viewed and managed in the App Manager, including the app menu configuration. The App Manager is found under ```Settings -> App Manager```. A tab must exit for a Lightning component or page in order to add it to an app in Salesforce or the navigation menu. This is automatically creeated when a Lighhtning page is built and activated using the Lightning App Builder.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Lightning apps can be configured to support desktop, phone, or both devices. They can be personalized depending on the navigation style. Utility items can also be added here. You can also add additional navigation items and assign the app to user profiles.
 
 # UI Features: Sandbox & Change Sets
+There are a number of different kinds of actions available in Salesforce:
 
+- Global Actions - actions that are available in places like the home page; allow action types such as create a record and log a call.
+- Object-Specific Actions - allow creating a record that is related to the object.
+- Action Layout Editor - fields can be added, removed, or reordered using the action layout editor for an object-specific action.
+
+## Quick Action Overview
+
+
+
+
+
+## Global Actions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Dynamic Actions
+## Object-Specific Actions
+## Scenarios & Solutions
 
 
 
