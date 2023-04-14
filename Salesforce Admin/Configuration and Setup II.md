@@ -357,18 +357,16 @@ Full Copy               Same as Production              All data, but subset of 
 Sandbox templates are required in partial copy sandboxes to specify which data to copy over.
 
 ## Deployment Options
+This refers to ```moving the developments or customizations``` from one org to another. The 'source org' refers to the org that contains the developments while the 'target org' refers to the org requiring the developments made on the source sandbox. Reasons can be for quality assurance, user acceptance testing, or final use. There are various tools to assist with deployment.
 
+When moving metadata, you will need to consider the environment type of the source and targets. 
 
-
-
-
-
-
-
-
-
-
-
-
+There are several options for deploying data: 
+1. Change Sets - used to migrate metadata between related sandbox/production orgs.
+2. Visual Studio Code - extensions for VSCode provide tools for development and deploymnet between orgs.
+3. Ant Migrataion Tool - CLI utility that can move metadata between a local directory and a Salesforce org.
+4. Salesforce CLI - CLI for metadata migration allowing interactive login without storing login credentials in a local directory. 
+5. Workbench - web-based tool for retrieving or deploying metadata using the package.xml file.
+6. Unmanaged Package - distribute open-source projects or application templates to any org.
 
 ## Change Sets
