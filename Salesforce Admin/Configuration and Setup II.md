@@ -298,15 +298,7 @@ Global Publisher Layouts - position nof the actions can be customized from: Setu
 After a Mass Quick Action is set up, up to 100 records can be selected in a list view and perform mass updates in Lightning Experience. Mass quick actions cannot be performed on a Recently Viewed list.
 
 ## Dynamic Actions
-
-
-
-
-
-
-
-
-
+Dynamic Actions can be used to dynamically control the visibility of Action buttons on a record page, based on the values on the record. Actions can thus be set to only appear when values of fields match a certain critria.
 
 ## Object-Specific Actions
 ## Scenarios & Solutions
