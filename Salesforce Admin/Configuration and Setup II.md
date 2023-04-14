@@ -311,5 +311,16 @@ Object-Specific actions layout can be configured from: Setup, Object Manager, (O
 
 ## Scenarios & Solutions
 
+SCENARIO: Support reps need to be able to launch a Visualforce page created by a developer from their home page.
+SOLUTION: A global actioncan be created for this use case. The action type can be set as ‘Custom Visualforce’. The action can be added to the publisher layout to make it appear on the home page.
 
+SCENARIO: When creating a related case from the account feed using the ‘New Case’ object-specific action, support reps should be able to enter only certain required fields.
+SOLUTION: The action layoutfor the object-specific action can be edited for this use case. The fields can be added, reordered or removed according to requirements.
 
+SCENARIO: A support representative should be able to send an email from the Chatter feed on the home page.
+SOLUTION: 
+- A global action with the action type 'Send an Email' can be created for this use case.
+- This action can be added to the global publisher layout to ensure that it appears on the Chatter feed of the home page.
+
+SCENARIO: An account manager who is using Salesforce mobile app when not in office is creating a new child account directly from an account record page. She wants to auto-populate fields such as ‘Website’ and ‘Account Number’ upon the click of a button.
+SOLUTION: Create a new quick action called “New Child Account” where the predefined value for the Parent Account field of the target record is the Account ID of the source record. The ‘Website and ‘Account Number’ field values can be predefined according to the parent record.
