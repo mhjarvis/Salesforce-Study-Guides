@@ -271,21 +271,43 @@ Object-Specific:
 - e.g. Create Actions, Log a Call, Update Actions, Custom Actions.
 
 ## Global Actions
+These actions can be added to any page that supports actions. Some notes:
+- Record Creation - allows creation of object records.
+- Configuration - defined in ```Setup > Global Action```.
+- Object Relationship - there is ```no automatic relationship``` between records that's created and any other record.
+- Accessibility - available from the ```home``` page, ```Chatter tab```, Chatter groups, ```object pages```, and custom ```Lightning app pages```. 
 
+Actions types include:
+- Create a Record
+- Send Email
+- Log a Call
+- Custom Visualforce
+- Custom Canvas
+- Lightning Component
 
+Global Actions can be accessed by clicking on the ```Global Actions Menu``` which i the '+' icon in the Salesforce Header (near your profile icon). In mobile, it can be accessed in the ```action bar``` on the ```Feed``` and ```People``` pages.
 
+Global Actions can be created to perform any of the following: Create standard object, create custom object, log a call, send an email, display vp page, display custom canvaas, launch a lightning component.
 
+‘Create a Record’ action can be used by users to create supported object records without leaving the page they are on.
 
+Global actions have layouts of their own called global publisher layouts. A global publisher layout is not associated to any object. If an object page layout is not customized with actions, the actions on those object record pages are inherited from the global publisher layout.
 
+Global Publisher Layouts - position nof the actions can be customized from: Setup, User Interface, Global Actions, Publisher Layouts. Global Publisher Layouts can be assigned by profile. 
 
-
-
-
-
-
-
+After a Mass Quick Action is set up, up to 100 records can be selected in a list view and perform mass updates in Lightning Experience. Mass quick actions cannot be performed on a Recently Viewed list.
 
 ## Dynamic Actions
+
+
+
+
+
+
+
+
+
+
 ## Object-Specific Actions
 ## Scenarios & Solutions
 
