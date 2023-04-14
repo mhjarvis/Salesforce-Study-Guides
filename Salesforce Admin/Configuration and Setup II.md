@@ -370,3 +370,15 @@ There are several options for deploying data:
 6. Unmanaged Package - distribute open-source projects or application templates to any org.
 
 ## Change Sets
+Change Sets are used to deploy metadata between related sandbox/production orgs through a deployment connection. It is created by adding main and dependent metadata componenets in the source org. Before deploying, it must be uploaded. Before deploying, you can validate the components. There are multiple test options available when validating or deploying a change set. Inbound/outbound change sets are used when deploying metadata components.
+
+Change sets are available in:
+1. Enterprise
+2. Performance
+3. Unlimited
+4. Professional
+5. Database.com
+
+Under the Deploy section of Setup, the Deployment Settings can be edited to establish deployment connections between related orgs. 
+
+The ```Outbound Change Set``` screen is located within the Environments section of Setup. Change sets are created here with new or modified components to be moved to another org. The ```Inbound Change Sets``` screen is located within the Environments section of Setup. Both deployed change sets and those waiting to be deployed are displayed.
