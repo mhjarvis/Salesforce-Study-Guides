@@ -211,16 +211,20 @@ When a (source) component has been configured for dynamic interactions, an Inter
 ## UI Features: Homepage Layouts
 This is the first page displayed to a user and can be customized using the ```Lightning App Builder```. A home page layout can be set as the org default or it can be customized and assigned to app or app and profile combos. 
 
-
-
-
-
-
-
-
-
-
 ## UI Features: Creating a Lightning Home Page
+The Lightning App Builder is used to create a new Home Page. The steps include:
+
+1. Create a new Home page or clone and exisiting Home page.
+2. Select a standard or custom template.
+3. Add componenets to the layout.
+4. Optionally set component visibility. 
+5. Activate the Home page.
+6. Set as default for Org, App or App/Profile combo.
+
+Visibility filters can be set for components on Lightning app and home pages to make them dynamic. For example, component visibility filter can be based on a field on the User object, such as 'Country'. Custom labels can be localized. The expression {!$Label.customLabelName} allows users to see labels in a chosen language, if a translation is created for that label in that language. Dynamic Actions can be used to dynamically control the visibility of Action buttons on a record page based on the values on the record. It helps in keeping the record page neat and streamlined.
+
+When you edit a page for the first time, Salesforce makes a copy of the standard page. This copy is what you can customize in the Lightning App Builder. Custom home pages can be assigned as org default, app default, or per app and profile combinations. The Standard Home page can be restored by selecting the System Default.
+
 ## Lightning Page Performance
 
 
