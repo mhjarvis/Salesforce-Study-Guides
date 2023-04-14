@@ -226,12 +226,11 @@ Visibility filters can be set for components on Lightning app and home pages to 
 When you edit a page for the first time, Salesforce makes a copy of the standard page. This copy is what you can customize in the Lightning App Builder. Custom home pages can be assigned as org default, app default, or per app and profile combinations. The Standard Home page can be restored by selecting the System Default.
 
 ## Lightning Page Performance
+Helps with monitoring adoption metrics and page performance. You can see ```daily user activity data``` and ```browser usage and page performance data```.
 
+The ```Lightning page analysis tool``` in the App Builder calculates the page performance of a Lightning Record Page. It also identifies the components that have the most impact on page load time. You can analyze performance based on Desktop/Phone. It will show the page load time. If possible, you can see which componenets take longest to load which thus should be moved to non-default taabs, or in an accordion (to improve page performance).
 
-
-
-
-
+When a custom Lightning component is added to a Lightning Record Page, the analysis tool may provideinsights and recommendations related to the custom componentto improve page performance.
 
 
 
