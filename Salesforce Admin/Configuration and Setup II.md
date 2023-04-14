@@ -243,7 +243,8 @@ All apps in an org can be viewed and managed in the App Manager, including the a
 
 Lightning apps can be configured to support desktop, phone, or both devices. They can be personalized depending on the navigation style. Utility items can also be added here. You can also add additional navigation items and assign the app to user profiles.
 
-# UI Features: Sandbox & Change Sets
+# Global Actions
+
 There are a number of different kinds of actions available in Salesforce:
 
 - Global Actions - actions that are available in places like the home page; allow action types such as create a record and log a call.
@@ -324,3 +325,50 @@ SOLUTION:
 
 SCENARIO: An account manager who is using Salesforce mobile app when not in office is creating a new child account directly from an account record page. She wants to auto-populate fields such as ‘Website’ and ‘Account Number’ upon the click of a button.
 SOLUTION: Create a new quick action called “New Child Account” where the predefined value for the Parent Account field of the target record is the Account ID of the source record. The ‘Website and ‘Account Number’ field values can be predefined according to the parent record.
+
+# UI Features: Sandbox & Change Sets
+## Sandboxes
+A Sandbox is a copy of a production org and is linked to it. Initally, Sanboxes only contain metadata (but some can contain data records). They are used to develop and test in a safe environment. This ensures nothing affects the production environment. They type of sandbox will differ by storage limit, initial data, and refresh interval. Refreshing a sandbox happens when an existing sandbox is replaced with a new copy from production. This creates a new sandbox, but retains the original name. There is a limit on how often you can refresh.
+
+There are 4 types of sandboxes:
+1. Developer - used for development, configuration, and testing new functionality.
+2. Developer Pro - development in which larger amounts of data are needed to test functionality; Integration from multiple developer sandboxes; quality assurance and user training.
+3. Partial Copy - testing / training where a subset of the data is sufficient.
+4. Full Copy - performance testing, load testing, and staging in an enviornment that is identical to production.
+
+The type of sandbox can be elected when creating or refreshing a sandbox. 
+
+Type                    Storage Limit                    Initial Data                      Refresh
+
+Developer               200MB Data Storage              Configuration Only                  1 Day
+                        200MB File Storage       
+
+Developer Pro           1GB Data Storage                Configuration Only                  1 Day
+                        1GB File Storage
+
+Partial Copy            5GB Data Storage                Subset of data determined           5 Days
+                        File Storage same               by template
+                        as production
+
+Full Copy               Same as Production              All data, but subset of             29 days
+                                                        can be copied through a
+                                                        sandbox template
+
+Sandbox templates are required in partial copy sandboxes to specify which data to copy over.
+
+## Deployment Options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Change Sets
