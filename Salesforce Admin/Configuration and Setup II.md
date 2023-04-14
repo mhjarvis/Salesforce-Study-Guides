@@ -232,15 +232,33 @@ The ```Lightning page analysis tool``` in the App Builder calculates the page pe
 
 When a custom Lightning component is added to a Lightning Record Page, the analysis tool may provideinsights and recommendations related to the custom componentto improve page performance.
 
-
-
-
-
-
-
-
-
 # UI Features: App Menu
+## App Menu
+Each app has a horizontal navigation bar to access items and functionality in the app. The navigation bar can be customized to include custom colors and branding. It can be used to access lightning apps containing lightning components. More nav items can be added to the menu and items can be reordered by draggiing the tabs around where you want them. 
+
+Users can rename / remove navigation items except for the ones added by the Admin by default. This accomplished in the ```app navigation items edit page```.
+
+## App Manager
+All apps in an org can be viewed and managed in the App Manager, including the app menu configuration. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # UI Features: Sandbox & Change Sets
 
