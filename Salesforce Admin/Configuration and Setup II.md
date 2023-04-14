@@ -251,10 +251,24 @@ There are a number of different kinds of actions available in Salesforce:
 - Action Layout Editor - fields can be added, removed, or reordered using the action layout editor for an object-specific action.
 
 ## Quick Action Overview
+Actions are availble on the Salesforce mobil app landing page as well as different objects. Types include:
+1. Standard Publisher Actions - actions automatically included when Chatter is enabled (e.g. Post, File, Link). Standard actions require enabling of feed tracking per object.
+2. Cutsom Action - ones you've created. Can be global or object-specific. Can also invoke lightning components, flows, VF pages, or canvas app. 
+3. Default Actions - ```predefined by Salesforce``` per object (New Contact, New Task, etc.). 
+4. Mobile Smart Actions - ```preconfigured just like Default actions```. 
+5. Productivity Actions - ```predefined by Salesforce and attached to a limited set of objects (e.g. Send Email, Log a Call, View Website). 
 
+Types of Quick Actions:
 
+Global:
+- have ```no automatic``` relationship with any record.
+- can be found on the (+) icon in the Salesforce header. 
+- e.g. Create Actions, Log a Call, Custom Actions
 
-
+Object-Specific:
+- ```Automatically associated``` with related records.
+- can be found on the ```record detail page``` of a specific object.
+- e.g. Create Actions, Log a Call, Update Actions, Custom Actions.
 
 ## Global Actions
 
