@@ -35,24 +35,26 @@ Multiple users (up to 10) can be added at one time. The ```Add Multiple Users```
 Users can also be created in ```batch``` using the Data Loader application. Required fields should be included in the import file. The Insert operation will need to be used. Proper picklist values should be used. 
 
 ## License
+There are three types of licenses: user license, feature license, permission set license. The user license must be selected to determine the level of access to the org and which profiles can be selected. Feature license allow for additional access. Permission set licenses can be used to assign users specific settings and permissions to use various tools and functions. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Locale settings are set via the company profile and can be overridden on the user record: locale, time zone, language, currency. 
 
 ## User Maintenance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Scenarios & Solutions
 
 
