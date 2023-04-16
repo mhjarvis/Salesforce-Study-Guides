@@ -76,29 +76,26 @@ Common issues that occur when loging in:
 ## Scenarios & Solutions
 
 SCENARIO: A new Salesforce Administrator is required to create a user record for a sales representative in Salesforce. He needs to get all the necessary details from the user to create the record, but he is not sure which details he should ask the user to provide.
-
 SOLUTION: To create a new user record, the required fields are Last Name, Alias, Nickname, Email, Username, User License, and Profile. The administrator should get the user’s full name, email address, unique username, alias, and nickname. The user license and profile should be selected based on what the user should be able to do in Salesforce. A role can be selected if a role hierarchy has been defined in Salesforce.
 
 
 SCENARIO: A user in the marketing department of Cosmic Solutions recently started using Salesforce. She is able to view campaigns, but she also needs the ability to create, edit, and delete campaign records in Salesforce.
-
 SOLUTION: The administrator of the company should edit the user record of the user and select the ‘Marketing User’ checkbox to assign a feature license to the user that would allow her to create, edit, and delete Campaign records. A feature license is assigned to provide access to additional features that are not available via the user license.
 
 
 SCENARIO: A support agent who uses Salesforce wants to see the text of standards tabs and fields in Italian. In addition, he would like to see the Event Start/End Time in calendar entries and events based on the Italian time zone instead of the default Eastern Standard Time.
-
 SOLUTION: The user record of the support agent can be edited for this requirement. In the Locale Settings section, the Language and Time Zone can be changed according to his requirement.
 
 
 SCENARIO: A sales rep of Cosmic Electronics has sent a message to the company’s system administrator saying that she sees an error while trying to log in. The administrator would like to view her past login attempts to determine the reason.
+SOLUTION The administrator can navigate to the ‘Login History’ page in Setup to view the sales rep’s past login attempts. The ‘Status’ of the recent login attempts should be checked to determine why she sees an error while trying to log in.
 
 
+SCENARIO: A support rep of Cosmic Service Solutions has been locked out of Salesforce due to too many failed login attempts. The administrator of the company needs to allow her to access Salesforce using a new password.
+SOLUTION: The administrator should unlock the user’s account by navigating to the user detail page and clicking the ‘Unlock’ button. To allow the user to set a new password, the ‘Reset Password’ button should be clicked, which sends an email to the user with a link to set a new password.
 
-
-
-
-
-
+SCENARIO: A Salesforce developer of Cosmic Solutions who regularly uses multiple Salesforce orgs, including test and production environments, is unable to access the company’s production org. He is certain that he’s using the correct username and password, which he has used several times in the past.
+SOLUTION: Since the developer accesses multiple Salesforce orgs, it is possible that he is using test.salesforce.com instead of login.salesforce.com to access the company’s production org. The administrator should inform the developer about this possibility. If the company is using My Domain, the link should be shared with the user.
 
 
 
