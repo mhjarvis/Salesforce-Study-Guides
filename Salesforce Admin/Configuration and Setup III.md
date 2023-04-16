@@ -97,12 +97,64 @@ SOLUTION: The administrator should unlock the user’s account by navigating to 
 SCENARIO: A Salesforce developer of Cosmic Solutions who regularly uses multiple Salesforce orgs, including test and production environments, is unable to access the company’s production org. He is certain that he’s using the correct username and password, which he has used several times in the past.
 SOLUTION: Since the developer accesses multiple Salesforce orgs, it is possible that he is using test.salesforce.com instead of login.salesforce.com to access the company’s production org. The administrator should inform the developer about this possibility. If the company is using My Domain, the link should be shared with the user.
 
-
-
-
-
-
-
 # Organization Security Controls
+## Setup Audit Trail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Passwords
+## Session Settings
+## IP Restrictions
+## Login Hours
+## Device Activation & Identity Verification
+## Additional Security Controls
+## GDPR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Apply Security Controls
 # Custom Profiles and Permission Sets
