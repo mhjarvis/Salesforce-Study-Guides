@@ -75,14 +75,22 @@ Common issues that occur when loging in:
 
 ## Scenarios & Solutions
 
+SCENARIO: A new Salesforce Administrator is required to create a user record for a sales representative in Salesforce. He needs to get all the necessary details from the user to create the record, but he is not sure which details he should ask the user to provide.
+
+SOLUTION: To create a new user record, the required fields are Last Name, Alias, Nickname, Email, Username, User License, and Profile. The administrator should get the user’s full name, email address, unique username, alias, and nickname. The user license and profile should be selected based on what the user should be able to do in Salesforce. A role can be selected if a role hierarchy has been defined in Salesforce.
 
 
+SCENARIO: A user in the marketing department of Cosmic Solutions recently started using Salesforce. She is able to view campaigns, but she also needs the ability to create, edit, and delete campaign records in Salesforce.
+
+SOLUTION: The administrator of the company should edit the user record of the user and select the ‘Marketing User’ checkbox to assign a feature license to the user that would allow her to create, edit, and delete Campaign records. A feature license is assigned to provide access to additional features that are not available via the user license.
 
 
+SCENARIO: A support agent who uses Salesforce wants to see the text of standards tabs and fields in Italian. In addition, he would like to see the Event Start/End Time in calendar entries and events based on the Italian time zone instead of the default Eastern Standard Time.
+
+SOLUTION: The user record of the support agent can be edited for this requirement. In the Locale Settings section, the Language and Time Zone can be changed according to his requirement.
 
 
-
-
+SCENARIO: A sales rep of Cosmic Electronics has sent a message to the company’s system administrator saying that she sees an error while trying to log in. The administrator would like to view her past login attempts to determine the reason.
 
 
 
