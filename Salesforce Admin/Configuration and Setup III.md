@@ -73,20 +73,6 @@ Common issues that occur when loging in:
 - Unverified account
 - Locked out
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Scenarios & Solutions
 
 
