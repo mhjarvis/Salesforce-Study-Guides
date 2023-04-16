@@ -98,6 +98,16 @@ SCENARIO: A Salesforce developer of Cosmic Solutions who regularly uses multiple
 SOLUTION: Since the developer accesses multiple Salesforce orgs, it is possible that he is using test.salesforce.com instead of login.salesforce.com to access the company’s production org. The administrator should inform the developer about this possibility. If the company is using My Domain, the link should be shared with the user.
 
 # Organization Security Controls
+Salesforce provides several ways to control org access. There are 4 levels of Security:
+1. Organization Security Controls - login hours, ip restrictions, password policies.
+2. Objects - profiles, permission sets.
+3. Object Record - org-wide defaults, role hierarchy, sharing, teams.
+4. Fields on a Record - field-level security, page layouts.
+
+
+
+
+
 ## Setup Audit Trail
 
 
