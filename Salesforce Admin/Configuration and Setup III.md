@@ -40,6 +40,38 @@ There are three types of licenses: user license, feature license, permission set
 Locale settings are set via the company profile and can be overridden on the user record: locale, time zone, language, currency. 
 
 ## User Maintenance
+The ```Login History``` page provides information on past login attempts. It providess the following information: 
+- Login Status - will indicate success or reason for failure to login.
+- List View - can be viewed as a related list.
+- Maximum Record Size - ```shows up to 20,000 login records for the past 6 months```.
+- Saved File Format - can be downloaded as a ```CSV or GZIP file```.
+- Troubleshooting - can be used to troubleshoot why a user cannot login.
+- API Access Record - API access logins will be included in All Logins option.
+
+Multiple passwords can be reset at a time if needed.
+
+Admins can see in the ```User detail section``` how many ```failed login attempts``` a user has. If the max is reached, they are locked out. Admins can unlock and unfreeze accounts from a user's details page. A user's account is frozen after too many login attempts. The ```freeze``` feature can also be used to ```prevent user access``` to the org. This is an immediate action that prevents them from logging in and having access. No emails/alerts are sent. The license is not released when a account is frozen. To release a license, the user must be deactivated.
+
+** Users ```cannot be deactivated``` if they are the sole recipient of a Workflow Email Alert, Customer Portal Administrator, or User selected in a Custom Hierarchy Field.
+
+A user can ```Self Deactivation``` if enabled to allow external Community and Chatter users deactivate their own accounts.
+
+The System Admin can ```delegate certain admin tasks``` to delegated admins. A ```delegated group``` controls what ```admin privileges``` are granted. This is done by:
+    Create delegated group -> Add users -> Assign capabilities
+
+Users in a delegated group can: manage users (create and edit users in specific roles), assign profiles, unlock and reset passwords (for users in certain roles), manage permission sets, create public groups and assign users to specified public groups, and manage custom objects.
+
+System Admins can ```log in as any user``` in the Setup menu under ```Login Access```. This feature can be turned on and off in: ```Setup -> Security Controls -> Login Access Policies```. If this setting is not enabled, each user needs to ```Grant Login Access``` from the ```Personal Setup menu```. 
+
+Common issues that occur when loging in:
+- Password is case sensitive
+- Login hours are setup and user is outside of those times
+- Inaccurate username
+- Incorrect domain
+- MyDomain policy
+- Profile based IP restriction
+- Unverified account
+- Locked out
 
 
 
