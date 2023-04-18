@@ -119,24 +119,65 @@ Changes tracked include who made those changes, date of change, and what was cha
 - Lightning Component changes (create, change, delete components).
 
 ## Passwords
+### Passwords
+Each user has a unique username/password. The admin can ensure these are strong and secure through password policies, password expiration, password resets, and Login Attempts / Lockout Periods. 
 
+Password Policies govern ```login and password specifications```. Passwords cannot contain a user's username and cant match their first or last name. Password restrictions and lockout policies can be changed as needed and can apply at the org level or profile level. Changes to org-wide password policies do not affect profile-specific password policies. 
 
+There are default password reqs for new orgs that can be modified except for the Personal Edition. These include a minimum length of ```at least eight characters, including one alphabetic character and one number```, the security question answer cannot contain the password, and a user cannot reuse their last 3 passwords. Password expiration time an also be set. The default for this is ```90 days```, but it can be set to 30, 60, 90, 180, 1 year, or never expires.
 
+Password Policies can specify login attempts and lockout periods. For invalid login attempts, you can set it to 3, 5, 10, or no limit. The length a user is locked out can also be set to 15 minutes, 30 minutes, 60 minutes, or forever.
 
+Password setting modification can improve security:
+- Password question requirement - can be set to not contain password.
+- Obscure secret answer for password resets - this hides the text when the user types security answer.
+- Password complexity requirement - enforce a certain combination of characters.
+- Minimum password length - can be set between 5 and 50 characters.
+- Require a minimum 1 day password lifetime - users are not allowed to change password more than once a day.
+- Enfoce password history - number of passwords remembered (none to 24). 
 
+There are some things to consider when resetting passswords:
+- When email is changed, the password is also reset.
+- Reset Password on the 'Users' page can reset all or select passwords.
+- A automatic email is generated when there is a password reset.
+- ```Reseting a locked account user's password automatically unlocks the account.```
 
+### User Authentication
+There are several ways to authenticate users:
 
+- Single Sign-On. Allows users in the org to login with other applications ```using single user credentials``` with an external provider. This removes the need to login to every single application every time. Only one password is needed this way. Can be used to standardize authentication. Federated Authentication or Delegated Authentication can be used. Increases use and efficiency. Also reduces risk of numerous logins.
+    
+    - Federated Authentication. Allows affiliated but unrelated service providers to share authentication data using SAML assertions. Salesforce can be the identity provider, service provider, or both. Automatically enabled for an org.
+    - Delegated Authentication. Allows authentication using credentials from an external authentication provider wrapped in a web service. Uses a strong form of user authentication and makes the login page private and accessible only behind a corporate firewall. Enabled via ```Setup -> Single Sign-On Settings```. 
+    
+- Multi-Factor Authentication. Increases an Org's security. Can be service-based or policy-based. Second factor may be the mobile authenticator app, or they can use WebAuthn or U2F security keys. Some considerations:
 
-
-
-
-
-
-
-
-
+    - Users who log in through an authentication provider that supports Single Sign-On are not subject to multi-factor authentication by default.
+    - MFA can be enforced (Session Security Level Required at Login = High Assurance).
+    - Salesforce support users, partner support users, and subscribers with high-assurance sessions can log in asother users without triggering the multi-factor authentication (MFA) challenge. The Multi-Factor Authentication for UI Logins During Log In As setting is disabled by default.
+    - Multi-factor authentication (MFA) can be enabled for all the users in an org by selecting a setting. This org-wide setting is the quickest way of satisfying the MFA requirement and will be used by Salesforce to automatically enable and enforce MFA in the future.
+    - To enable MFA for all the users, Require multi-factor authentication (MFA) for all direct UI logins to your Salesforce org can be enabled on the Identity Verification or Session Settings page in Setup.
+    - To enforce MFA challenges for users, Session Security Level Required at Login can be set to High Assurance in their profile
+    - An administrator must ensure that Multi-Factor Authentication is in the High Assurance column on the Session Settings page in Setup.
 
 ## Session Settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## IP Restrictions
 ## Login Hours
 ## Device Activation & Identity Verification
@@ -173,5 +214,5 @@ Changes tracked include who made those changes, date of change, and what was cha
 
 
 
-# Apply Security Controls
+# Apply Security Control
 # Custom Profiles and Permission Sets
