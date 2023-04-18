@@ -161,6 +161,17 @@ There are several ways to authenticate users:
     - An administrator must ensure that Multi-Factor Authentication is in the High Assurance column on the Session Settings page in Setup.
 
 ## Session Settings
+You can configure the ```session connection type, timeout restrictions, and IP address ranges``` in Setup. The Session Security Settings can be configured at the org and profile level. Profile settings over-ride org-wide settings. Session Settings will be available in a user profile if using the enghanced profile interface. 
+
+At the Org-Wide Session Settings, you can set the ```session timeout``` to happen after a set amount of time. You can also disable the session timeout warning popup. It is also possible to force logout on session timeout. User sessions can be locked to the IP address from where they originated or the domain in which they were first used. Salesforce requires HTTPS for connections to third-party domains. POST requests can be used for cross-domain sessions. Login IP ranges can be enforced on every request. Some other notes:
+
+    - Secure and persistent browser caching can be enabled to improve performance.Caching and autocomplete on the login pagecan also be enabled. CDN can be enabled for theLightning Component Framework
+    - Protection against clickjacking, also called UI redress attack, can be enabled for customVisualforce pageswithstandard headersand withheaders disabled.
+    - XSSandContent Sniffing protection can be enabled. Thesite’s URL can be hidden from other websites in the referred header. Users can be warned before they’re redirected outside Salesforce.
+    - Access to certain types of resources can be restricted based on thesecurity level (Standard or High Assurance) associated with theauthentication method, such as Username and Password
+    - Policies can be set to requireHigh Assurance security level forreports,dashboards, andconnected apps. If the session isn’t High Assurance, access can beblockedorthesession level can be raised.
+    - The Logout URL can be specified to redirect users to a certain page after they log out. The expiration timecan be selected for theaccount verification link in welcome emails to new users. All expired tabs can be redirected to a custom logout URL.
+
 
 
 
