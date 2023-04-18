@@ -104,31 +104,38 @@ Salesforce provides several ways to control org access. There are 4 levels of Se
 3. Object Record - org-wide defaults, role hierarchy, sharing, teams.
 4. Fields on a Record - field-level security, page layouts.
 
-
-
-
-
 ## Setup Audit Trail
+The ```View Setup Audit Trail``` screen is located in Setup. This helps track setup changes that admins have made to the org, which helps if there are multiple admins. If a delegated user makes a setup change, the ```Delegate User column``` shows their username. This shows the ```20 most recent setup changes``` and stores audit trail history for the last 6 months. This can be ```downloaded for the last 6 months``` (excel csv).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Changes tracked include who made those changes, date of change, and what was changed. Some things trackd include:
+- Amin-related changes such as Company info, defult settings, roles, users, permission sets, etc.
+- Customization changes such as workflow rules, approval processes, flows, page layouts, custom objects, etc.
+- Groups and Sharing such as changes to public groups, sharing rules, org-wide settings, etc.
+- Data Management changes such as use of Data Import Wizard, exporting data, deletion of records, etc.
+- Email Deliverability and Delivery changes such as access level, PIN length, inactivity timeout, email relay, etc.
+- Delegated Admin setup changes.
+- Notification types delivery setting changes.
+- Apex changes such as class creation, triggers, VF pages, lightning pages, etc.
+- Lightning Component changes (create, change, delete components).
 
 ## Passwords
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Session Settings
 ## IP Restrictions
 ## Login Hours
