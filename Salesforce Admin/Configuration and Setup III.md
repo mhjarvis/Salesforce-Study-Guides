@@ -195,21 +195,20 @@ Device activation is another security layer. This is invoked when logging in fro
 A user is able to ```register a Built-In Authenticator such as Touch ID, Face ID, or Windows Hello``` to their account/mobile device. These use biometric data for identification. You can switch back to another verification mode (click on 'Having Trouble'). 
 
 ## Additional Security Controls
+You can monitor login behavior and information using ```Login Forensics```. This is helpful when there is:
+    - suspicious login activity
+    - more than average number of logins
+    - logins during non-business hours
+    - logins using suspicious IP ranges
 
+There is no user interface with Login Forensics. Track events using API objects LoginEvent and Platform Event Metrics. Login Forensics can be enabled in the ```Event Manager``` page in Setup. 
 
+Security Health Check is another tool that can help identify and fix potential vulnerabilities in key areas of security settings. This can be found in 'Health Check' in Setup. Grades and scores are provided to meassure org security. Recommended actions are provided as are additional options.
 
+### My Domain
+My Domain is a feature that allows the creation of subdomains. Allows highlighting the brand of the company and making the org more secure. Helps manage login/authentication. It also allows you to add your brand to the domain name. This is also required for certain features such as SSO. 
 
-
-
-
-
-
-
-
-
-
-
-
+My Domain can be routed through the Salesforce Edge Network to improve download times and org performance. 
 
 ## GDPR
 
