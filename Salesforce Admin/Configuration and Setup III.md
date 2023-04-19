@@ -172,24 +172,33 @@ At the Org-Wide Session Settings, you can set the ```session timeout``` to happe
     - Policies can be set to requireHigh Assurance security level forreports,dashboards, andconnected apps. If the session isn’t High Assurance, access can beblockedorthesession level can be raised.
     - The Logout URL can be specified to redirect users to a certain page after they log out. The expiration timecan be selected for theaccount verification link in welcome emails to new users. All expired tabs can be redirected to a custom logout URL.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Session-based access control can be done using a permission set. If multiple permission sets need to be assigned for an activated user session, a permission set group can be assigned to users instead.
 
 ## IP Restrictions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Login Hours
 ## Device Activation & Identity Verification
 ## Additional Security Controls
