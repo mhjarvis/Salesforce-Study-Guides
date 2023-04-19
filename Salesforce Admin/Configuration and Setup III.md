@@ -183,26 +183,34 @@ You can add trusted IP adresses at the org-level via Network Access in Setup. Th
 Login hours can be set at the profile level, but not at he org-wide level. You can set the days and hours a profile can log in. The same error message is seen as when a user enters the wrong username/password. To prohibit users from logging in on a specific day, set ```'Start Time' to 12 AM and 'End Time' to End of Day (12AM)```. 
 
 ## Device Activation & Identity Verification
+Device activation is another security layer. This is invoked when logging in from a unknown device and/or outside a trusted IP range. This is all based on browser cookies. They will be required to reactivate if cookies are deleted. Verification is done via ```the highest priority verification method available```, in the following order: 
 
+    1. Salesforce Auth. Mobile App
+    2. Built-in Authenticator
+    3. U2f Security Key
+    4. One-Time Password Generator
+    5. SMS Text Message
+    6. Email
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+A user is able to ```register a Built-In Authenticator such as Touch ID, Face ID, or Windows Hello``` to their account/mobile device. These use biometric data for identification. You can switch back to another verification mode (click on 'Having Trouble'). 
 
 ## Additional Security Controls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## GDPR
 
 
