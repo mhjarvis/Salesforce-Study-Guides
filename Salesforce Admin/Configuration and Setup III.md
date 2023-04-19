@@ -179,30 +179,29 @@ Control org access via IP addresses, which can be set at the org-level or profil
 
 You can add trusted IP adresses at the org-level via Network Access in Setup. This allows users to login without receiving a login challenge (verifying their idenity). If login from outside this IP range, they are sent a activation code. An activation code is sent eveery time a user logs in from a device or browser that Salesforce does not recognize, regardless of IP address. If cookies have been deleted, they will be asked to verify their idenity. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Login Hours
+Login hours can be set at the profile level, but not at he org-wide level. You can set the days and hours a profile can log in. The same error message is seen as when a user enters the wrong username/password. To prohibit users from logging in on a specific day, set ```'Start Time' to 12 AM and 'End Time' to End of Day (12AM)```. 
+
 ## Device Activation & Identity Verification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Additional Security Controls
 ## GDPR
 
