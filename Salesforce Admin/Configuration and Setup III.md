@@ -175,7 +175,9 @@ At the Org-Wide Session Settings, you can set the ```session timeout``` to happe
 Session-based access control can be done using a permission set. If multiple permission sets need to be assigned for an activated user session, a permission set group can be assigned to users instead.
 
 ## IP Restrictions
+Control org access via IP addresses, which can be set at the org-level or profile level. When enabled, logins from other IP addresses will deny access. For profiles, this option is found in the ```profile overview page```. When denied, the user is shown the same error message as when someone enters the wrong username/password. You can enforce login IP ranges on every request via the Session Settings. 
 
+You can add trusted IP adresses at the org-level via Network Access in Setup. This allows users to login without receiving a login challenge (verifying their idenity). If login from outside this IP range, they are sent a activation code. An activation code is sent eveery time a user logs in from a device or browser that Salesforce does not recognize, regardless of IP address. If cookies have been deleted, they will be asked to verify their idenity. 
 
 
 
