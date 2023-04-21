@@ -244,6 +244,10 @@ Rights under GDPR:
 8. Rights of automated decision-making and profiling.
 
 # Apply Security Control
+Access to records is determined by access to the objects themselves (and then access to individual records). 
+
+
+
 ## Object Access
 
 
