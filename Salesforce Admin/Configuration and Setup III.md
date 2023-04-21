@@ -244,4 +244,61 @@ Rights under GDPR:
 8. Rights of automated decision-making and profiling.
 
 # Apply Security Control
+## Object Access
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Record Access
+## Field Access
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Custom Profiles and Permission Sets
