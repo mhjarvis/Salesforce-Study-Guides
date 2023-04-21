@@ -266,7 +266,15 @@ Rights under GDPR:
 
 ## Record Access
 ## Field Access
-
+## Role Hierarchy
+## Manager Group Access
+## Sharing Rules
+## Manual Sharing
+## Manual User Sharing
+## Record Sharing Hierarchy
+## Report and Dashboard Folders
+## Other Sharing Options
+## Scenarios
 
 
 
