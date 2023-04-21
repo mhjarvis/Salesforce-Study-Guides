@@ -211,7 +211,7 @@ My Domain is a feature that allows the creation of subdomains. Allows highlighti
 My Domain can be routed through the Salesforce Edge Network to improve download times and org performance. 
 
 ## GDPR
-
+GDPR is a data protection law defining how personal information of EU individuals needs to be handled. 
 
 
 
