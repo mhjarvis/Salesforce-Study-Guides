@@ -267,10 +267,17 @@ Profiles also determine access to tabs and apps. Tab access settings include:
 Object Settings like Tab Settings and Object Permissions an be defined within a profile.
 
 ## Record Access
+Record-level access determines hat a user can do within records of an object (create, read, edit, delete). 
 
+** Object permissions ```control what users can do with records``` they own. 
+
+Org-wide defaults determine ```access to other users' data for records they do NOT own```. Changing settings to increase default access will take effect immediately while decreasing default access will take some time. OWD settings ```do not grant more access than the object access``` granted in the user's profile. 
 
 Can be managed in 4 ways: organization wide  defaults, role hierarchies, sharing rules, and manual sharing.
 
+Pricebook object access options:
+    Pricebook: Use - All users can view/add.
+    Pricebook: View Only - 
 
 ## Field Access
 ## Role Hierarchy
