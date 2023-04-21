@@ -246,9 +246,13 @@ Rights under GDPR:
 # Apply Security Control
 Access to records is determined by access to the objects themselves (and then access to individual records). The sharing model determines the access a user has to records. Records access is first set with org-wide defaults. It is expanded through roles and role hierarchies. This gives managers access to the records owned by users below them in the hierarchy. Sharing rules can be customized using public groups, roles, etc. Records can also be manually shared. Security Controls consist of:
 
-    1. 
-
-
+    - Role Hierarchy
+    - Field Access
+    - Sharing Ruleslll
+    - Record Access
+    - Manual Sharing
+    - Object Access
+    - Public Groups
 
 ## Object Access
 
