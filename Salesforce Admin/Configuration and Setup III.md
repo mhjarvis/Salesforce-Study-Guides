@@ -244,7 +244,9 @@ Rights under GDPR:
 8. Rights of automated decision-making and profiling.
 
 # Apply Security Control
-Access to records is determined by access to the objects themselves (and then access to individual records). 
+Access to records is determined by access to the objects themselves (and then access to individual records). The sharing model determines the access a user has to records. Records access is first set with org-wide defaults. It is expanded through roles and role hierarchies. This gives managers access to the records owned by users below them in the hierarchy. Sharing rules can be customized using public groups, roles, etc. Records can also be manually shared. Security Controls consist of:
+
+    1. 
 
 
 
