@@ -243,27 +243,5 @@ Rights under GDPR:
 7. Right to object.
 8. Rights of automated decision-making and profiling.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Apply Security Control
 # Custom Profiles and Permission Sets
