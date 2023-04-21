@@ -211,14 +211,37 @@ My Domain is a feature that allows the creation of subdomains. Allows highlighti
 My Domain can be routed through the Salesforce Edge Network to improve download times and org performance. 
 
 ## GDPR
-GDPR is a data protection law defining how personal information of EU individuals needs to be handled. 
+GDPR is a data protection law defining how personal information of EU individuals needs to be handled. It regulates the processing, collection, storage, transfer, and usage of personal data about EU individuals. It is meant to carry high penalties, give people more control on how their data is collected, used, and stored, applies if an org contracts with someone in the EU (regardless of physical presence in the EU), applies to personal/sensitive data, and orgs should minimize what info is needed and stored. 
 
+Data Protection - include encryption, data masking, event monitoring, sharing settings, field level security and session settings.
+Data Classification Fields - owwner, field usage, data sensitivity and compliance categorization levels.
+Data Retention - used to clasify and define how long data should be retained. 
+Data Model - can be made compliant using data privacy objects and custom objects as needed.
+Personal Data - any data that can identify an individual.
+Sensitive Data - subcategory of personal data and needs higher protection.
 
+GDPR Terms:
+    Data Processor - processes data upon behalf of the data controller (This is Salesforce). 
+    Data Controller - Salesforce customer that is responsible for managing customer ddata. 
+    Data Subject - An individual data collected relates to. 
 
+Key data must be handled according to these key principals:
+1. Legitimate purpose - limited, explicit, an for a specific purpose.
+2. Data deletion - delete if not required.
+3. Secure - prevent access, disclosure, loss, destruction, or alteration.
+4. Consent - freely given, can be revoked.
+5. Accurate - accurate and up to date.
+6. Accountable - record keeping and reporting on compliance.
 
-
-
-
+Rights under GDPR:
+1. Right of access.
+2. Right of rectification - inaccurate or incomplete data must be rectified.
+3. Right to be informed.
+4. Right to erasure.
+5. Right to restrict processing.
+6. Right to data portability.
+7. Right to object.
+8. Rights of automated decision-making and profiling.
 
 
 
