@@ -255,27 +255,23 @@ Access to records is determined by access to the objects themselves (and then ac
     - Public Groups
 
 ## Object Access
+Profiles determine object access and permissions. Permissions include the ability to create, read, edit, delete, view all/modify all data. 
 
+** ```View all and Modify all``` grants access to all records of the object and ```overrides sharing settings```. 
 
+Profiles also determine access to tabs and apps. Tab access settings include:
+    - TAB SETTING 'DEFAULT ON' - tab for obj will be in the nav bar if part of the app selected.
+    - TAB SETTING 'DEFAULT OFF' - available for user to add by customizing tabs.
+    - TAB SETTING 'TAB HIDDEN' - tab not visible for obj.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Object Settings like Tab Settings and Object Permissions an be defined within a profile.
 
 ## Record Access
+
+
+Can be managed in 4 ways: organization wide  defaults, role hierarchies, sharing rules, and manual sharing.
+
+
 ## Field Access
 ## Role Hierarchy
 ## Manager Group Access
