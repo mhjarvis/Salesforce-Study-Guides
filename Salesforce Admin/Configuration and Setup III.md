@@ -333,7 +333,9 @@ Standard Profiles include:
 These can be created when you need a ```fully customized``` profile (e.g. the standard profile will not work). A custom profile is created by ```cloning``` a existing profile. These are not available in Contact Manager and Group Editions. There is a ```Restricted Profile Cloning``` setting that, when checked, will only allow permissions available to the org when cloning a profile. 
 
 ## Profile Settings
-
+Settings can be customized for each profile and are ```Object-based```. 
 
 ## Permission Sets
+These expand user privileges. Can only increase privileges, not remove. It consists of App permissions and System Permissions. Permission Set Groups can be created which group permission sets together and assign to the user. 
 
+Session-based permission sets and permission set groups can be created to give users access only during an activated user session. The permissions granted will be revoked once the session expires.
