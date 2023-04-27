@@ -51,7 +51,23 @@ Custom record types can be grantedd access iwth permissison sets.
 All objects come with some standard fields. The admin can customize these.
 
 ## Standard and Custom Fields
+Standard Fields:
+    - field labels can be changed.
+    - picklist values can be modified.
+    - field history tracking can be set. 
+    - field-level help can be added.
+    - lookup filters can be added or edited. 
+    - auto-number field format can be adjusted.
+    - can be rmoved via page layout. 
+    - cannot be deleted.
 
+Custom fields: 
+    - Data types can be set.
+    - fields can be set to require a value.
+    - fields can be set to unique.
+    - can have a default value. 
+    - can be set to be case sensitive.
+    - time fields
 
 ## Cutom Field Creation
 ## Picklist
