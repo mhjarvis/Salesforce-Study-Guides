@@ -280,6 +280,18 @@ Pricebook object access options:
     Pricebook: View Only - 
 
 ## Field Access
+
+
+
+
+
+
+
+
+
+
+
+
 ## Role Hierarchy
 ## Manager Group Access
 ## Sharing Rules
