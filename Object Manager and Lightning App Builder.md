@@ -22,4 +22,26 @@ A Campaign can have many Campaign Members.
 The main objects in Sales Cloud have a default rlationship model. Schema builder can be ued to view the data model as well as create objects, fields, and relationships quickly. 
 
 ## Object Relationship
+Used when there is a need to relate records in one objeect with a different object. Related records from a lookup/master-detail rlationship can be seen through related lists on the page layout. 
+
+A self-relationship would be creating a lookup from one ACcount to another Account field.
+
+Hierarchical Relationships are only available on the USER object.
+
+Master-Detail Relationship:
+    - The object with the lookup must have a prent. 
+    - If a master record is deleted, all detail records are also deleted, unless the 'Allow Reparenting' setting is enabled which allows a detail record to be associated with another master record. 
+    - Child obj inherits sharing/security settings.
+    - Standard obj must be on the master-side of the relationship with a custom obj. 
+    - Master-detail may be between two custom objects.
+
+The OWNER field does not exist for a child object. 
+
+A JUNCTION OBJECT allows for many-to-many relationships. This object sits between the other 2 objects and has a master-detail relationship with both. 
+
 ## Record Types
+Record types can be used to:
+    - diplay picklist values
+    - display page layouts
+    - support business processes
+
