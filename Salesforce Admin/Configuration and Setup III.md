@@ -303,43 +303,37 @@ The ```Sharing Hierarchy``` button can be used to determine why a user has acces
 ## Report and Dashboard Folders
 Reports/dashboards are shared with ```Enhanced Folder Sharing```. Users can only see a report/dashboard (view, edit, manage) if the user has access to the folder that contains the report/dashboard. The ```private reports folder``` a user has cannot be shared and reports in this folder cannot be accessed by others.
 
-Access level to reports can be set based on the user, group, territory, or role. Sharing level can be ```view, edit, or manage```. Manage allows users to share folders and control those settings. 
-
+Access level to reports can be set based on the user, group, territory, or role. Sharing level can be ```view, edit, or manage```. Manage allows users to share folders and control those settings. Access can depend on a variety of user permissions which allow differnt things:
+    - run reports permissions
+    - schedule reports permissions
+    - subscribe to dashboards
+    - report builder
+    - create and customize reports
+    - create and customize dashboards
+    - manage reports/dashboards in public folders
 
 ## Other Sharing Options
-## Scenarios
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Public Groups can also be used for sharing rules and access. Only Admins can create these. 
 
 # Custom Profiles and Permission Sets
+Everyone has a profile. They provide access to objects and actions that can be performed on those objects. They also provide add access, IP restrictions, and various other permissions. Some profiles cannot be edited. Admins can create custom profiles and modify permissions through permission sets.
+
+## Standard Profile
+Standard Profiles are assigned to users - they cannot be edited but can be cloned. They include app settings and system settings. App settings tell which apps a user has access to. System settings apply accross all apps (data visibility, security settings). 
+
+Standard Profiles include:
+    - Standard User
+    - Marketing User
+    - Contract Manager
+    - Solution Manager
+    - Minimum Access - Salesforce
+    - System Administrator
+
+## Custom Profile
+These can be created when you need a ```fully customized``` profile (e.g. the standard profile will not work). A custom profile is created by ```cloning``` a existing profile. These are not available in Contact Manager and Group Editions. There is a ```Restricted Profile Cloning``` setting that, when checked, will only allow permissions available to the org when cloning a profile. 
+
+## Profile Settings
+
+
+## Permission Sets
+
