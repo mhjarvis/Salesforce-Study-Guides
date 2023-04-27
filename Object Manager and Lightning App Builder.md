@@ -45,3 +45,18 @@ Record types can be used to:
     - display page layouts
     - support business processes
 
+Custom record types can be grantedd access iwth permissison sets. 
+
+# Create, Delete, and Customize Fields and Page Layouts
+All objects come with some standard fields. The admin can customize these.
+
+## Standard and Custom Fields
+
+
+## Cutom Field Creation
+## Picklist
+## Roll-Up Summary Fieldss
+## Formula Fields
+## Custom Objects
+## Apps and Tabs
+## Page Layouts
