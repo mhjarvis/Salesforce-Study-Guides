@@ -280,22 +280,20 @@ Pricebook object access options:
     Pricebook: View Only - 
 
 ## Field Access
-
-
-
-
-
-
-
-
-
-
-
+Access to specific fields can be controlled. Fields can be unticked as 'visible' for any profile. Field-level security settings will override field properties so can be mor restrictive. If the setting is changed to 'read-only', the 'edit' button will be overriden. The exception is universally required fields. Fields can be set to not visible or read-only.
 
 ## Role Hierarchy
+Role Hierarchy works by granting records access to users that are higher in the role hierarchy. This helps when the Org-wide Defaults are set to more restrictive settings, and this opens up records under people. It is really a 'data access hierarchy'. Under Sharing Settings, there is an option to ```Grant Access Using Hierarchies``` which will open up access to people in hierarchy. 
+
 ## Manager Group Access
+Manager Groups allow user to share records up or down their management chain. 
+
 ## Sharing Rules
+Sharing rules allow record access to other users based on their role, territoy, public group membership, or manager group. 
+
 ## Manual Sharing
+Allows users to share records with other users on a one-off basis. 
+
 ## Manual User Sharing
 ## Record Sharing Hierarchy
 ## Report and Dashboard Folders
