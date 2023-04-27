@@ -295,8 +295,17 @@ Sharing rules allow record access to other users based on their role, territoy, 
 Allows users to share records with other users on a one-off basis. 
 
 ## Manual User Sharing
+Users can be given the ability to share their own user record. 
+
 ## Record Sharing Hierarchy
+The ```Sharing Hierarchy``` button can be used to determine why a user has access to a record. This will show the users who have access to that records, the type of access, the why. 
+
 ## Report and Dashboard Folders
+Reports/dashboards are shared with ```Enhanced Folder Sharing```. Users can only see a report/dashboard (view, edit, manage) if the user has access to the folder that contains the report/dashboard. The ```private reports folder``` a user has cannot be shared and reports in this folder cannot be accessed by others.
+
+Access level to reports can be set based on the user, group, territory, or role. Sharing level can be ```view, edit, or manage```. Manage allows users to share folders and control those settings. 
+
+
 ## Other Sharing Options
 ## Scenarios
 
